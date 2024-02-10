@@ -5,8 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/xiaomi/ares
-
 #API
 PRODUCT_SHIPPING_API_LEVEL := 30
 
