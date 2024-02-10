@@ -31,12 +31,12 @@ AB_OTA_PARTITIONS += \
     vbmeta_system \
     vbmeta_vendor
     
-    PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
     update_engine \
     update_engine_sideload \
     update_verifier
-    
-    AB_OTA_POSTINSTALL_CONFIG += \
+
+AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
     POSTINSTALL_PATH_system=system/bin/mtk_plpath_utils \
     FILESYSTEM_TYPE_system=ext4 \
