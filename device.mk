@@ -45,6 +45,7 @@ AB_OTA_PARTITIONS += \
 # Boot control HAL
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-impl.recovery
+
 # fastbootd
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.0-impl-mock \
